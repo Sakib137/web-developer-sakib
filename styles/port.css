@@ -86,6 +86,10 @@ main{
     margin: 70px auto;
 }
 
+main section{
+    margin-top: 130px;
+}
+
 
 .about{
     padding: 130px;
@@ -114,7 +118,7 @@ main{
 }
 
 #what-i-do{
-    padding: 30px 150px;
+    padding: 20px 150px;
 }
 
 .skills-container{
@@ -128,9 +132,29 @@ main{
     padding: 32px;
 }
 
-.skill-description{
-    
+.resume-container{
+    display: flex;
+    gap: 30px;
+}
+
+.resume-column-title{
+    font-size: 20px;
+}
+
+.resume-item-title{
+    font-size: 17px;
+}
+
+.resume-item-institution{
+    font-size: 15px;
    
 }
 
+.resume-container hr{
+    margin: 30px;
+}
 
+.cv{
+    margin-top: 30px;
+    text-align: center;
+}
