@@ -3,6 +3,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 nav > ul {
@@ -41,8 +42,16 @@ nav h3 {
     font-size: 20px;
 }
 
-.ima {
-    max-resolution: 774px 136px;
-    margin-top: 20px;
-    margin-left: 30px;
+.banner {
+    margin: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+    height: 676px;
+    width: 586px;
+}
+.banner .banner-content{
+    height: 356px;
+    width: 585px;
 }
