@@ -33,6 +33,7 @@ nav h3 {
     font-size: 45px;
 }
 
+
 .new {
     background-color: orange;
     border: 0px;
@@ -54,14 +55,14 @@ nav h3 {
 }
 .banner .banner-content{
     max-width: 585px;
-    max-height: 356px;
+    max-height: 356px; 
 }
 
 .header{
     background-color: rgb(234, 232, 229);
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner-gretting{
@@ -134,11 +135,12 @@ main section{
 
 .resume-container{
     display: flex;
-    gap: 30px;
+    gap: 250px;
 }
 
 .resume-column-title{
     font-size: 20px;
+    margin-bottom: 40px;
 }
 
 .resume-item-title{
